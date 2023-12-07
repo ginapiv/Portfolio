@@ -32,8 +32,6 @@
     height: auto;
     margin: auto;
     margin-top: 1vh;
-
-
 }
 /* end artwork */
 
@@ -107,7 +105,7 @@
     top: 0px;
     left: 0;
     width: 100vw;
-    height: 200vh;
+    height: 220vh;
     /* fill */
     object-fit: fill;
     pointer-events: none;
@@ -127,6 +125,46 @@
        }
      
       .da_img_desktop{
-       display:block;
+        z-index: -1;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100vw;
+        height: 470vh;
+        /* fill */
+        object-fit: fill;
+        pointer-events: none;
+        display:block;
+      }
+      .wrapper {
+        gap: 0px 0px;
+      }
+      .art {
+        width: 75vw;
+        margin-top: 0vh;
+      }
+      .title {
+        font-size: 9rem;
+        letter-spacing: -2px;
+      }
+      #da-title{
+        margin-top: 20vh;
+        line-height:95px;
+      }
+
+      .one img {
+        width: 75vw;
+      }
+      .two img,
+      .three img,
+      .four img,
+      .five img{
+        width: 37vw;
+      }
+    
+      .six img{
+        object-fit: cover;
+        width: 75vw;
+        height: 50vh;
       }
   }

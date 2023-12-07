@@ -14,7 +14,6 @@
 
 
 
-<!-- <link rel="stylesheet" href="style/TEMPDONOTUSE.css"> -->
 
 
 </head>
@@ -32,44 +31,86 @@
     <img src="assets/CONTACT_MBG.jpeg" class="contact_img_mobile">
     <img src="assets/CONTACT_Desktop.jpeg"  class="contact_img_desktop">
 
-  
-
-  <div class="form">
+  <form class="form" onsubmit="return postToGoogle();">
       <div class="title-contact">
         <h1 class="title" id="contact-title">CONTACT</h1>
       </div>
       <div class="form-input-fields">
         <div class="input-container ic1">
-          <input id="firstname" class="input" types="text" placeholder=" " required/>
+          <input 
+            id="firstname" 
+            name="entry.111334685"
+            class="input" 
+            types="text" 
+            placeholder=" " 
+            required
+          />
           <!-- <div class="cut cut-name"></div> -->
           <label for="firstname" class="placeholder">Name<b>*</b></label>
         </div>
         <div class="input-container ic2">
-          <input id="phone" class="input" type="tel" placeholder=" " required/>
+          <input 
+            id="phone" 
+            name="entry.1680758593"
+            class="input" 
+            type="tel" 
+            placeholder=" " 
+            required
+          />
           <!-- <div class="cut"></div> -->
           <label for="phone" class="placeholder">Phone Number<b>*</b></label>
         </div>
         <div class="input-container ic2">
-          <input id="email" class="input" type="email" placeholder=" " required/>
+          <input 
+            id="email" 
+            name="entry.1184312553"
+            class="input" 
+            type="email" 
+            placeholder=" " 
+            required
+          />
           <!-- <div class="cut cut-short"></div> -->
           <label for="email" class="placeholder">Email<b>*</b></label>
         </div>
         <div class="input-container ic2">
-            <input id="about" class="input" type="text" placeholder=" " required/>
+            <input 
+              id="about" 
+              name="entry.1804124301"
+              class="input" 
+              type="text" 
+              placeholder=" " 
+              required
+            />
             <!-- <div class="cut cut-short"></div> -->
             <label for="about" class="placeholder">About<b>*</b></label>
         </div>
         <div class="input-container ic2">
-            <textarea id="additional-messages" class="input" type="text-area" placeholder=" " ></textarea>
+            <textarea 
+              id="additional-messages" 
+              name="entry.192861214"
+              class="input" 
+              type="text-area" 
+              placeholder=" " ></textarea>
             <!-- <div class="cut cut-add-messages"></div> -->
             <label for="additional-messages" class="placeholder">Additional Messages<b>*</b></label>
         </div>
         
-        <button type="text" class="submit">Submit</button>
+        <input type="submit" class="submit" onclick="alert('Thank you for submitting!')"/>
       </div>
-    </div>
+    </form>
 
-    <section class="bottom-page" style="position: absolute; transform: translateY(680px) translateX(0px)">
+
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="app/app.js"></script>
+
+
+
+
+
+
+    <section class="bottom-page" style="position: absolute; transform: translateY(750px) translateX(0px)">
       <footer>
           <ul>
               <li><a href="index.html" class="active">Home</a></li>

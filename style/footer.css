@@ -30,6 +30,15 @@ footer ul li a {
     text-decoration: none;
     padding: 6px 8px;
     align-items: center;
+    text-align: center;
     color: #c98888;
     border-radius: 20px;
 }
+
+  /* desktop */
+  /* applies from 600px onwards */
+  @media (min-width: 600px) {
+    footer ul li a {
+      font-size: 1.5rem;
+  }
+  }

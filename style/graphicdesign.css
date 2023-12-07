@@ -100,7 +100,7 @@
     top: 0px;
     left: 0;
     width: 100vw;
-    height: 218vh;
+    height: 231vh;
     /* fill */
     object-fit: fill;
     pointer-events: none;
@@ -120,6 +120,42 @@
        }
      
       .gd_img_desktop{
-       display:block;
+        z-index: -1;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100vw;
+        height: 450vh;
+        /* fill */
+        object-fit: fill;
+        pointer-events: none;
+        display:block;
       }
-  }
+      .one img,
+      .two img {
+        width: 75vw;
+      }
+      .one img {
+        height: 90vh;
+        object-fit: contain;
+      }
+      .three img,
+      .four img,
+      .five img,
+      .six img{
+        object-fit: cover;
+        width: 35vw;
+      }
+      .wrapper {
+        gap: 0px 0px;
+      }
+      .art {
+        width: 80vw;
+        margin-top: 0vh;
+    }
+    .title {
+      font-size: 9rem;
+      line-height: 90%;
+      letter-spacing: -2px;
+    }
+}

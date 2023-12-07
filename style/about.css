@@ -81,7 +81,6 @@ body {
 /* end main body */
 
 
-
   /* background images */
   .about_img_mobile{
     z-index: -1;
@@ -114,7 +113,7 @@ body {
         top: 0px;
         left: 0;
         width: 100vw;
-        height: 160vh;
+        height: 185vh;
         /* fill */
         object-fit: fill;
         pointer-events: none;
@@ -148,6 +147,9 @@ body {
     
         top: 65vh;
         left: 45vw;
+    }
+    .bottom-page {
+      transform: translateY(95.01vh) translateX(-8px);
     }
 
   }

@@ -78,7 +78,7 @@
     font-size: 1.2em;
     color: #fbe8e8;
     line-height: 30px;
-    text-align: center;
+    text-align: left;
 }
 #about-body button {
     margin-top: -100px;
@@ -95,8 +95,8 @@ button {
     width: 100px;
     border-radius: 75px;
     border-width: 0;
-    background-color: black;
-    color: white;
+    background-color: rgb(22, 16, 79);
+    color: #fbe8e8;
   }
 
   /* ty message */
@@ -167,7 +167,7 @@ button {
         top: 0px;
         left: 0;
         width: 100vw;
-        height: 1050vh;
+        height: 1000vh;
         /* fill */
         object-fit: fill;
         pointer-events: none;

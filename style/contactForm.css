@@ -150,7 +150,7 @@ body {
     top: 0px;
     left: 0;
     width: 100vw;
-    height: 150vh;
+    height: 170vh;
     /* fill */
     object-fit: fill;
     pointer-events: none;
@@ -196,5 +196,8 @@ body {
         margin-top: 58px;
         width: 50%;
         margin-left: 10vw;
+    }
+    .ic2 {
+        margin-top: 60px;
     }
 }

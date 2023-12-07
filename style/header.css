@@ -37,8 +37,7 @@
 }
 #header ul li a:hover,
 #header ul li a.active {
-    background: #182474;
-    color: #fbe8e8;
+    color: #c98888;
 }
 
 /* desktop */
@@ -54,3 +53,4 @@
         padding: 6px 30px;
     }
 }
+
