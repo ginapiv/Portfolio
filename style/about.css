@@ -1,0 +1,153 @@
+* {
+    overscroll-behavior-x: none;
+    overscroll-behavior-y: none;
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Lalezar', sans-serif;
+}
+
+body {
+    object-fit: fill;
+  }
+
+  .title-about{
+    text-align: center;
+  }
+  /* Title */
+  .title {
+    z-index: 1000;
+    color: #fbe8e8;
+    font-size: 6rem;
+    font-family: 'Lalezar', sans-serif;
+    text-align: center;
+    line-height: 90%;
+    letter-spacing: -2px;
+    display: inline-block;
+}
+
+#about-title{
+    margin-top: 25vh;
+    margin-left: 3vw;
+    /* transform: translateY(30vh) translateX(10vw); */
+}
+/* end title */
+
+
+/* about main body */
+
+
+
+
+#pfp {
+    position: absolute;
+    background-color: #080c34;
+    border-radius: 50%;
+    width: 65vw;
+    height: 40.5vh;
+    top: 40vh;
+    left: 5vw;
+}
+
+
+
+
+#pfp img {
+    width: inherit;
+    height: inherit;
+    object-fit: contain;
+}
+
+
+#additional-info {
+    position: absolute;
+    width: 55vw;
+
+    top: 90vh;
+    left: 10vw;
+}
+#additional-info #add-info-title{
+    font-size: 2.8rem;
+}
+#additional-info p {
+    height:40.4vh;
+    width: 85vw;
+    font-size: 1.2em;
+    font-family: 'Lalezar', sans-serif;
+    color: #fbe8e8;
+    line-height: 30px;
+    margin-top: -25px;
+}
+/* end main body */
+
+
+
+  /* background images */
+  .about_img_mobile{
+    z-index: -1;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100vw;
+    height: 160vh;
+    /* fill */
+    object-fit: fill;
+    pointer-events: none;
+    display:block;
+   }
+  .about_img_desktop{
+   display:none;
+  }
+  /* end background images */
+
+
+  /* desktop */
+  /* applies from 600px onwards */
+  @media (min-width: 600px) {
+    .about_img_mobile{
+        display:none;
+       }
+     
+      .about_img_desktop{
+        z-index: -1;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        width: 100vw;
+        height: 160vh;
+        /* fill */
+        object-fit: fill;
+        pointer-events: none;
+        display:block;
+      }
+      .title {
+        font-size: 12rem;
+      }
+      #about-title{
+        margin-top: 40vh;
+      }
+      #pfp {
+        position: absolute;
+        background-color: #080c34;
+        border-radius: 50%;
+        width: 36vw;
+        height: 60vh;
+        margin-top: 25vh;
+        left: 80px;
+      }
+      #additional-info #add-info-title{
+        font-size: 3.5rem;
+    }
+    #additional-info p {
+        height:40.4vh;
+        width: 45vw;
+        font-size: 2em;
+    }
+    #additional-info {
+        width: 45vw;
+    
+        top: 65vh;
+        left: 45vw;
+    }
+
+  }

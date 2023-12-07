@@ -1,0 +1,35 @@
+
+.bottom-page p {
+    font-family: 'Katibeh', serif;
+    color: #c98888;
+    transform: translate(3px, 10px);
+  }
+  .bottom-page {
+    overflow: hidden;
+    background-color: #080c34;
+    height: 100px;
+    width: 100vw;
+    transform: translate(-7.8px, 100px);
+  }
+
+
+  footer ul {
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li {
+    font-family: 'Katibeh', serif;
+    list-style: none;
+    /* margin-left: 0px; */
+}
+
+footer ul li a {
+    font-family: 'Katibeh', serif;
+    text-decoration: none;
+    padding: 6px 8px;
+    align-items: center;
+    color: #c98888;
+    border-radius: 20px;
+}

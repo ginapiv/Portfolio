@@ -1,0 +1,18 @@
+div {
+    border: 5px solid green;
+}
+img {
+    border: 5px solid red;
+}
+button {
+    border: 5px solid yellow;
+}
+p {
+    border: 5px solid blue;
+}
+h1,h2,h3{
+    border: 5px solid purple;
+}
+section {
+    border: 5px solid black;
+}
